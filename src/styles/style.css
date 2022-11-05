@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.loadMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.loadMore button {
+  padding: 0.25rem 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: rgba(80, 13, 80, 0.681);
+  border: 3px solid rgb(80, 13, 80);
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+nav {
+  background-color: rgb(155, 107, 155);
+}
+nav .webName {
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+nav ul li {
+  padding: 0.5rem 1rem;
+}
+nav ul li a {
+  color: #fff;
+  font-style: 1.5rem;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+.search input,
+.search button {
+  font-size: 2rem;
+  padding: 0.25rem;
+  border: 3px solid rgb(80, 13, 80);
+  border-radius: 25px;
+  margin: auto 0.5rem;
+}
+.search button {
+  background-color: rgba(80, 13, 80, 0.681);
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: 1.5rem;
+  background-color: rgb(222, 218, 218);
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pictures .picture {
+  padding: 1rem;
+  width: 400px;
+}
+.pictures .picture .imageContainer {
+  overflow: hidden;
+  height: 40vh;
+}
+.pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease;
+}
+.pictures .picture .imageContainer img:hover {
+  transform: scale(1.25);
+}
+
+.aboutBody {
+  padding: 2rem 2rem;
+  color: rgb(100, 97, 97);
+}
+.aboutBody p {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+.aboutBody .highlight {
+  color: rgb(155, 107, 155);
+}/*# sourceMappingURL=style.css.map */
